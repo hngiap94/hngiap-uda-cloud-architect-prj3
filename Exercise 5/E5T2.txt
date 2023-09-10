@@ -1,0 +1,19 @@
+1. Identify tools that will allow you to do the following: 
+a. Scan infrastructure as code templates.
+- Regula
+- Terrascan
+- Chef Inspect
+* Example vulnerability:
+- Ingress/Egress allow traffics from all IP addresses and ports
+b. Scan AMI’s or containers for OS vulnerabilities.
+- Ansible
+* Example vulnerability:
+- SSH root access with password logon
+c. Scan an AWS environment for cloud configuration vulnerabilities.
+- AWS Config
+- AWS Inspector
+- AWS GuardDuty
+* Example vulnerability:
+- IAM role allow access to all resources
+- Server-side encryption is not enabled on S3 bucket
+- Unauthorized access to EC2 instances from the internet
